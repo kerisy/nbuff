@@ -487,7 +487,7 @@ struct MutableMemoryChunk
     {
         int     _id;
     }
-    @disable this(this);
+    // @disable this(this);
 
     this(size_t s) @safe @nogc
     {
